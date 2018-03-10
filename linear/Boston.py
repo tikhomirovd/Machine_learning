@@ -13,7 +13,21 @@ print("Правильность на тестовом наборе: {:.2f}".form
     lr.score(X_test, y_test)))
 
 ridge = Ridge().fit(X_train,y_train)
-print("Ridge")
+print("\nRidge, alpha=1")
+print("Правильность на обучающем наборе: {:.2f}".format(
+    ridge.score(X_train, y_train)))
+print("Правильность на тестовом наборе: {:.2f}".format(
+    ridge.score(X_test, y_test)))
+
+ridge01 = Ridge(alpha=10).fit(X_train,y_train)
+print("\nRidge, alpha=10")
+print("Правильность на обучающем наборе: {:.2f}".format(
+    ridge.score(X_train, y_train)))
+print("Правильность на тестовом наборе: {:.2f}".format(
+    ridge.score(X_test, y_test)))
+
+ridge = Ridge(alpha=0.1).fit(X_train,y_train)
+print("\nRidge, alpha=0.1")
 print("Правильность на обучающем наборе: {:.2f}".format(
     ridge.score(X_train, y_train)))
 print("Правильность на тестовом наборе: {:.2f}".format(
