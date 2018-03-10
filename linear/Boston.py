@@ -1,5 +1,4 @@
-from Neighbors.library import *
-from linear.Ordinary_list_squares import lr
+from Neighbors.library import * 
 import mglearn
 
 X, y = mglearn.datasets.load_extended_boston()
