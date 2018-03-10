@@ -1,5 +1,4 @@
-from Neighbors.library import * 
-import mglearn
+from library import *
 
 X, y = mglearn.datasets.load_extended_boston()
 

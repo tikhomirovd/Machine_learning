@@ -1,8 +1,6 @@
 from library import *
-from sklearn.model_selection import train_test_split
-import matplotlib.pyplot as plt
 
-plt.rc('font', family='Verdana')
+
 
 X, y = mglearn.datasets.make_forge()
 # mglearn.discrete_scatter(X[:, 0], X[:, 1], y)

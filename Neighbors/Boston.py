@@ -1,5 +1,5 @@
-from Neighbors.library import *
-from sklearn.datasets import load_boston
+from library import *
+
 
 boston = load_boston()
 
