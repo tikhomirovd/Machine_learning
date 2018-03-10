@@ -45,4 +45,7 @@ plt.hlines(0, 0, len(lr.coef_))
 plt.ylim(-25, 25)
 plt.legend()
 
+plt.subplots()
+mglearn.plots.plot_ridge_n_samples()
+
 plt.show()
