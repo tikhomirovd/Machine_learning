@@ -12,7 +12,9 @@ from sklearn.neighbors import KNeighborsRegressor
 from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import Ridge
 from sklearn.linear_model import Lasso
+from sklearn.linear_model import LogisticRegression
+from sklearn.svm import LinearSVC
 from sklearn.datasets import load_breast_cancer
-plt.rc('font', family='Verdana')
 import mglearn
+plt.rc('font', family='Verdana')
 
